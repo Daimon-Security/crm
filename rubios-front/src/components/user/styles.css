@@ -1,0 +1,11 @@
+  .notBorder{
+    border: 0;
+    outline: 0;
+  }
+
+  .input-password-disabled{
+    background-color: #e9ecef !important;
+}
+
+
+

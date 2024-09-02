@@ -1,0 +1,189 @@
+.navBarDNone {
+    display: none !important;
+}
+
+.logo-text {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.input-date>div {
+    width: 100% !important;
+}
+
+.height-bar {
+    height: 400px;
+}
+
+.text-client-collections{
+    font-size: 14px;
+}
+
+.text-date-collections{
+    font-size: 11px;
+}
+
+
+@media (max-width: 768px) {
+    .d-table-mobile {
+        display: none !important;
+    }
+
+    .bg-table-total>table>tbody>tr>td {
+        background-color: #b9cae9db !important;
+    }
+
+    .text-mobile {
+        font-size: 14px !important;
+    }
+
+    .height-bar {
+        height: 200px;
+    }
+
+}
+
+.capa-semi-transparente {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente */
+    z-index: 1;
+    /* Coloca la superposición sobre otros elementos */
+
+    pointer-events: auto;
+}
+
+button.payment-button {
+    font-size: 12px;
+}
+
+.text-red>td {
+    color: red !important;
+}
+
+.custom-table-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.custom-table-header th::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: rgb(204, 211, 225);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.cursor-hand {
+    cursor: pointer;
+}
+
+.bg-row-table-collapse td {
+    background: rgb(207, 225, 240) !important;
+}
+
+.btn-hide-payment {
+    background-color: rgb(248, 109, 75) !important;
+}
+
+.td-buttons {
+    border: none !important;
+}
+
+.progress {
+    height: 30px;
+    margin-top: 20px;  
+    position: relative;   
+}
+
+.progress-bar {
+    color: #fff;
+    padding: 10px 5px 10px 10px;
+    font-size: 12px;
+}
+
+
+.border-info {
+    border-left: 5px solid  #0dcaf0 !important;
+}
+.border-danger {
+    border-left: 5px solid  #fd3550 !important;
+}
+.border-success {
+   
+}
+.border-warning {
+    border-left: 5px solid  #ffc107 !important;
+}
+
+.border-active{
+    border-left: 5px solid  rgb(230, 192, 139) !important;
+}
+
+.text-active{
+    color:  rgb(230, 192, 139) !important;
+}
+
+.title-corder{
+    font-size: 11px;
+}
+
+
+.border-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+.bg-dolar{
+    background-color: rgba(35, 137, 93, 0.8);
+    color:#fff;
+}
+.bg-peso{
+    background-color: rgba(92, 106, 183, 0.8);
+    color:#fff;
+}
+
+.pending-accountability{
+    text-align: center;
+    background-color: orange;
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    width: 90% !important;
+    margin: auto;
+    display: block;
+}
+.bg-report-dolar{
+    background-color: rgba(32, 130, 97, 0.114);
+}
+
+.bg-report-peso{
+    background-color: rgba(115, 124, 177, 0.127);
+}
+
+p.payment-date{
+    margin-bottom: 5px;
+}
